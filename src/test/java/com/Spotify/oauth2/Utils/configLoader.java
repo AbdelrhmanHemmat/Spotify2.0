@@ -47,4 +47,10 @@ public class configLoader {
         else throw new RuntimeException("Property user_id is not specified in this Property File");
     }
 
+    public String getToken(){
+        String Prop = properties.getProperty("token");
+        if (Prop != null) return Prop;
+        else throw  new RuntimeException("Property token is not specified in this Property File");
+    }
+
 }

@@ -8,5 +8,8 @@ public class Route {
     public static final String TOKEN = "/token";
     public static final String USERS = "/users";
     public static final String PLAYLISTS = "/playlists";
+    public static final String TRACKS = "/tracks";
+    public static final String FOLLOWERS = "/followers";
+    public static final String ME = "/me";
 
 }

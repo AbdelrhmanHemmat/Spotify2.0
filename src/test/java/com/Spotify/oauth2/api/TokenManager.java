@@ -1,6 +1,7 @@
 package com.Spotify.oauth2.api;
 
 import com.Spotify.oauth2.Utils.configLoader;
+import io.qameta.allure.Step;
 import io.restassured.response.Response;
 
 import java.time.Instant;
@@ -10,6 +11,7 @@ public class TokenManager {
     private static String access_token;
     private static Instant expiry_time;
 
+    @Step("Get token")
     public static String getToken(){
         try {
             if (access_token == null || Instant.now().isAfter(expiry_time)) {
@@ -28,6 +30,7 @@ public class TokenManager {
         return access_token;
     }
 
+    @Step("Get the new refresh token")
     private synchronized static Response renewToken(){
 
         HashMap<String,String> formParams = new HashMap<String,String>();

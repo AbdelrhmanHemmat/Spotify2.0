@@ -1,0 +1,34 @@
+<div>DELETE to https://api.spotify.com/v1/playlists/123INVALID123/tracks</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;tracks&quot;: [
+        {
+            &quot;uri&quot;: &quot;spotify:track:6rqhFgbbKwnb9MLmUQDhG6&quot;
+        }
+    ]
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer BQC7LfyFBfRtwgzypeDZFQ4T4WC9GizjgiW7F8M6rojs-lOjpJM9veSf1hz9BODStmv708AAXLr6zOmFLfLF8z-A1kgW4uUysLKVWHbqmRvQJrui_b6I9NKVqSkcOtanZ_1U04OmsZeJiWoVgN7o4aaT68na0Cn_q5o8L1vfISPW03iXLyXN8tmIUrXKkrkEM6Q6FgW3PWLZpnleLchwQPbCt6xhbfqmzkeNHX4H-vp18pBxwEVi2YkQP3k3RIKgQrYco6LmPgo8W1tNokH1pdS1qylgFspeoDeB4I8qWpKspnLGhn9VCKh7xKZi</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X DELETE &#39;https://api.spotify.com/v1/playlists/123INVALID123/tracks&#39; -H &#39;Authorization: Bearer BQC7LfyFBfRtwgzypeDZFQ4T4WC9GizjgiW7F8M6rojs-lOjpJM9veSf1hz9BODStmv708AAXLr6zOmFLfLF8z-A1kgW4uUysLKVWHbqmRvQJrui_b6I9NKVqSkcOtanZ_1U04OmsZeJiWoVgN7o4aaT68na0Cn_q5o8L1vfISPW03iXLyXN8tmIUrXKkrkEM6Q6FgW3PWLZpnleLchwQPbCt6xhbfqmzkeNHX4H-vp18pBxwEVi2YkQP3k3RIKgQrYco6LmPgo8W1tNokH1pdS1qylgFspeoDeB4I8qWpKspnLGhn9VCKh7xKZi&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;tracks&quot;: [
+        {
+            &quot;uri&quot;: &quot;spotify:track:6rqhFgbbKwnb9MLmUQDhG6&quot;
+        }
+    ]
+}&#39;
+    </div>
+

@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"8399274b4bb69ec8699907dd6ef7de4e","name":"Default Suite","statistic":{"failed":4,"broken":5,"skipped":0,"passed":39,"unknown":0,"total":48}},{"uid":"7f89e45ff61fd64f7aa6f249d9b321e5","name":"SpotifyAPI-Parallel","statistic":{"failed":0,"broken":0,"skipped":0,"passed":100,"unknown":0,"total":100}}]}

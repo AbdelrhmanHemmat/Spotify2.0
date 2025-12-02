@@ -1,0 +1,33 @@
+<div>PUT to https://api.spotify.com/v1/playlists/VALID_PLAYLIST_ID/tracks</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;tracks&quot;: [
+        {
+            &quot;uri&quot;: &quot;spotify:track:6rqhFgbbKwnb9MLmUQDhG6&quot;
+        }
+    ]
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X PUT &#39;https://api.spotify.com/v1/playlists/VALID_PLAYLIST_ID/tracks&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;tracks&quot;: [
+        {
+            &quot;uri&quot;: &quot;spotify:track:6rqhFgbbKwnb9MLmUQDhG6&quot;
+        }
+    ]
+}&#39;
+    </div>
+
